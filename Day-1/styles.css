@@ -1,0 +1,100 @@
+body {
+    background-image: url(/images/sky.png);
+    background-size: 25%;
+    width: 80%;
+    margin-top: 30px;   
+    margin-left: auto;
+    margin-left: auto;
+    
+}
+img {
+    width: 350px;
+  
+    margin: 10px 20px 30px
+}
+
+p {
+    font-size: 25px;
+    width: 75%
+    
+}
+
+li {
+    font-size: 20px;
+}
+
+
+
+.h1 {
+    color: blue;
+}
+
+.title {
+    display: inline;
+    font-size: 3em;
+    margin-top: 15%; 
+    /*margin-left:auto;
+    margin-right: auto; */
+    color: blue;
+    text-align: center;
+}
+
+.giphy_embed {
+    width: 150px 
+    height="384" 
+    frameBorder="0"  
+
+}
+
+.giphy-globe {
+    width: 150px;
+    
+}
+
+.airplane {
+    width: 250px;
+    
+    
+}
+
+#airplane {
+    width: 250px;
+    transform: scaleX(-1)
+
+}
+
+.blue {
+    border: 30px solid;
+    border-image: url(/images/90s_prints/blue_geo.jpg) 30 round;
+    transform: rotate(10deg);
+    
+}
+
+.swirly {
+    border: 20px solid;
+    border-image: url(/images/90s_prints/swirly.jpg) 30 round;
+}    
+
+
+.cheetah {
+    border: 20px solid;
+    border-image: url(/images/90s_prints/cheetah.jpg) 30 round;
+    transform: rotate(10deg);
+}
+
+.purple {
+    border: 20px solid;
+    border-image: url(/images/90s_prints/purple.jpg) 30 round;
+    transform: rotate(-10deg);
+}
+
+.yellow {
+    border: 20px solid;
+    border-image: url(/images/90s_prints/yellow.jpg) 30 round;
+}
+
+.macaroni {
+    border: 20px solid;
+    border-image:url(/images/90s_prints/macaroni.jpg) 30 round;
+    transform: rotate(-10deg);
+}
