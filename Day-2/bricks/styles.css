@@ -1,0 +1,238 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+#score {
+    background-color: black;
+    color: rgb(185, 240, 185);
+    font-size: 270%;
+    text-transform: uppercase;
+    height: 5%;
+    padding-top: .3%;
+    padding-left: 75%;
+    padding-bottom:.6%;
+}
+
+#green {
+    background-color: rgb(185, 240, 185);
+    height: 94%;
+    width: 100%;
+    border-bottom: 4px solid black;
+    position: relative;
+}
+
+#black-square {
+    background-color: black;
+    position: absolute;
+    top: 6%;
+    width: 94%;
+    height: 94.4%;
+    left: 3%; 
+
+}
+
+#top-red-row {
+    margin-left: .3%;
+}
+
+
+#top-red-row  div {
+    display: inline-block;
+      
+} 
+
+.top-red {
+    
+    margin-top: 3.5%;
+    background-color: red;
+    height:5%;
+    width: 7.87%;
+    border-left: 1px solid white;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+          
+}
+
+#bottom-red-row {
+    margin-left: .3%;
+}
+
+#bottom-red-row div {
+    display: inline-block;
+
+}
+
+
+.bottom-red {
+   
+    background-color: red;
+    height:5%;
+    width: 7.87%;
+    border-left: 1px solid white;
+    border-right: 1px solid black;
+    border-top: 1px solid white;
+}
+
+.yellow-row {
+    margin-left: .3%;
+}
+
+.yellow-row div {
+    display: inline-block;
+}
+
+.yellow {
+    background-color: yellow;
+    height: 5%;
+    width: 7.87%;
+    border-left: 1px solid white;
+    border-right: 1px solid black;
+    border-top: 1px solid white;
+}
+
+.black {
+    background-color: black;
+    height: 5%;
+    width: 7.87%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black; 
+}
+
+#black-left {
+    background-color: black;
+    height: 5%;
+    width: 7.87%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black; 
+    position: relative;
+}
+
+#white-left {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 20%;
+
+}
+
+
+#black-right {
+    background-color: black;
+    height: 5%;
+    width: 7.87%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black; 
+    position: relative;
+}
+
+#white-right {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50%;
+    width: 20%;
+}
+
+.green-row {
+    margin-left: .3%;
+}
+
+.green-row div {
+    display: inline-block;
+    
+}
+
+.green {
+    background-color: green;
+    height: 5%;
+    width: 7.87%;
+    border-left: 1px solid white;
+    border-right: 1px solid black;
+    border-top: 1px solid white;
+}
+
+.blue-row {
+    margin-left: .3%;
+}
+
+.blue-row div {
+    display: inline-block
+}
+
+.blue {
+    background-color: blue;
+    height: 5%;
+    width: 7.87%;
+    border-left: 1px solid white;
+    border-right: 1px solid black;
+    border-top: 1px solid white;
+}
+
+#black-row {
+    margin-left: .3%;
+}
+
+#black-row div{
+    display: inline-block;
+}
+
+#black-row-brick {
+
+ background-color: black;
+    height: 8%;
+    width: 7.87%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    position: relative;
+
+}
+
+#white-bottom {
+    position: absolute;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 34%;
+    width: 20%;
+}
+
+#long-green-row {
+    margin-top: 20%;
+}
+
+#long-green-row div{
+    display: inline-block;
+    
+
+}
+
+.black-and-green {
+   /* position: absolute;
+    bottom: 0; */
+    background-color: black;
+    height: 5%;
+    width: 7.87%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black; 
+
+}
+#long-green {
+   position: absolute;
+    bottom:0;
+    left:42% ; 
+    background-color: rgb(185, 240, 185);
+    border-bottom: 4px solid black;
+    width: 15.75%;
+    height: 4%;
+    
+}
