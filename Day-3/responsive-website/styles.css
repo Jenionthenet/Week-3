@@ -1,0 +1,138 @@
+
+
+p {
+    width:200px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+      
+}
+
+    
+
+#menu {
+    display: flex;
+    list-style: none;
+    background-color: rgb(115, 141, 132);
+    color: rgb(248, 239, 239);
+    font-size: 1.5em;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+#menu li {
+    padding-inline: 150px;
+}
+
+#banner {
+    display: flex;
+    /*height: 150px; */
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    
+}
+
+#banner div {
+    padding-inline-end: 50px ;
+    
+}
+
+#banner-1 {
+    font-size: 4em;
+    color: rgb(71, 43, 60);
+}
+
+#banner-2 {
+    font-size: 2em;
+    color: rgb(20, 19, 19);
+}
+
+#pictures {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.pic-with-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+.pic {
+    width: 300px;
+    margin: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+     
+    
+    #menu {
+        flex-direction: column;
+        height: fit-content;
+        font-size: 1em;
+        align-items: center;
+    }
+
+    #banner {
+        width: 100%;
+    }
+
+    #banner div {
+        padding-inline: 10px;
+    }
+
+    #banner-1 {
+        font-size: 2em;
+    } 
+    #banner-2 {
+        font-size: 1em;
+    }
+
+    #pictures {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pic {
+        width: 250px;
+    }
+    
+
+} 
+
+@media (min-width: 481px) and (max-width:1279px) {
+    #banner {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    p{
+        font-size: 1.5em;
+        width: 300px;
+    }
+
+    #banner-1 {
+        font-size: 5.5em;
+    }
+
+    #banner-2 {
+        font-size: 3em;
+    }
+
+    .pic {
+       width: 400px;
+    }
+
+} 
