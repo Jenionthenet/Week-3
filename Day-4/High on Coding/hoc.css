@@ -1,0 +1,90 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+#pills {
+    width: 250px
+}
+
+#top-images {
+    display:flex;
+    margin-right: 10px;
+}
+#menu-card {
+    display: flex;
+    flex-direction: column;
+   /* margin-left: 100px; */
+}
+
+#navbarNav {
+    border: solid 1px rgb(201, 196, 196);
+    border-radius: 5px;
+    background-color: rgb(245, 244, 244);
+    margin-left: 0;
+}
+
+.navbar-nav li {
+    padding-left: 25px;
+}
+
+.card {
+    margin-top: 10px;
+    background-color: rgb(245, 244, 244);
+    border: none;
+    padding: 25px;
+}
+
+.card-title {
+    font-family: helvetica;
+    font-weight: 600;
+    color : rgb(82, 79, 79) 
+
+}
+
+/* #text {
+    margin-top: 30px;
+}
+
+.list-group-item {
+    border: none;
+} */
+
+#text {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.text-paragraphs {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.d-block {
+    width: 60%;
+
+}
+.w-100 {
+    width:60%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #text {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #container {
+        margin:auto
+    }
+
+    #top-images {
+        flex-direction: column;
+    }
+}
